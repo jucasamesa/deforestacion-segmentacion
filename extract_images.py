@@ -4,8 +4,8 @@ from PIL import Image
 import io
 
 # Paths
-docx_path = r"c:\Users\jucas\OneDrive\Escritorio\01. Escritorio\UNIR\3. Materias\Vision\act3\mia03_caso_VA_def.docx"
-output_dir = r"c:\Users\jucas\OneDrive\Escritorio\01. Escritorio\UNIR\3. Materias\Vision\act3\extracted_frames"
+docx_path = input("Enter the path to the DOCX file: ")
+output_dir = input("Enter the path to the output directory: ")
 
 # Create output directory
 os.makedirs(output_dir, exist_ok=True)

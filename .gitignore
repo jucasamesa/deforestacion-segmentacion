@@ -5,6 +5,7 @@
 *.xls
 *.csv
 *.txt
+!requirements.txt
 read_docx_content.py
 ~$*.docx
 ~*.tmp
