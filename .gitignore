@@ -1,6 +1,10 @@
 # User specific ignore rules
 *.docx
 *.pdf
+*.xlsx
+*.xls
+*.csv
+*.txt
 read_docx_content.py
 ~$*.docx
 ~*.tmp
