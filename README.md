@@ -20,9 +20,8 @@ El análisis permite obtener métricas objetivas sobre la evolución de la defor
 
 *   `solution.ipynb`: Cuaderno principal con todo el código de procesamiento, visualización y análisis.
 *   `requirements.txt`: Lista de librerías necesarias para ejecutar el proyecto.
-*   `extract_images.py`: Script de utilidad para extraer la secuencia de imágenes (GIF) desde el documento original (`.docx`).
-*   `read_docx_content.py`: Script auxiliar para lectura de contenido.
-*   `mia03_caso_VA_def.docx`: Documento fuente que contiene las imágenes satelitales originales.
+*   `extract_images.py`: Script que extrae la secuencia de imágenes (GIF) desde el documento original (`.docx`).
+*   `data.docx`: Documento fuente que contiene las imágenes satelitales originales.
 *   `extracted_frames/`: Directorio donde se almacenan las imágenes extraídas para su procesamiento (generado por `extract_images.py`).
 *   `out/`: Directorio de salida con los resultados de las máscaras de segmentación.
 
